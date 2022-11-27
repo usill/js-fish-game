@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Sono', sans-serif;
+}
+
+#game {
+  display: none;
+}
+
+.preview {
+  margin-top: 150px;
+  width: 800px;
+  height: 500px;
+  background-image: url("./title.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.start__game {
+  border: rgb(35, 143, 143) 4px solid;
+  background-color: rgb(52, 211, 211);
+  padding: 25px 45px;
+  font-size: 30px;
+  cursor: pointer;
+  color: rgb(35, 143, 143);
+  transition: 0.3s ease;
+}
+
+.start__game:hover {
+  background-color: rgb(45, 185, 185);
+}
+
+.loose__info {
+  display: none;
+}
